@@ -1,0 +1,2 @@
+*.tsv filter=lfs diff=lfs merge=lfs -text
+*.ttl filter=lfs diff=lfs merge=lfs -text
