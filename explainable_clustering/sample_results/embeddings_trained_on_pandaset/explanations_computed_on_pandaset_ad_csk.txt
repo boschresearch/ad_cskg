@@ -1,0 +1,24 @@
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_cheaper_than_type,PickupTruck), (?x,includes_entity__r_Synonym_type,Standing)	c_support: 16	c_coverage: 1.0000	x_coverage: 0.3423	wr_acc: 0.0076	n_coverage: 0.2596	tfidf: 1.3010
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_are_more_profitable_than_type,Car), (?x,includes_entity__r_Synonym_type,Standing)	c_support: 16	c_coverage: 1.0000	x_coverage: 0.3423	wr_acc: 0.0076	n_coverage: 0.2596	tfidf: 1.3010
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_are_a_bit_more_prominent_than_type,Car), (?x,includes_entity__r_Synonym_type,Standing)	c_support: 16	c_coverage: 1.0000	x_coverage: 0.3423	wr_acc: 0.0076	n_coverage: 0.2596	tfidf: 1.3010
+
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_evolve_type,Walking), (?x,includes_entity_has_property_type,Stopped)	c_support: 80	c_coverage: 1.0000	x_coverage: 0.0781	wr_acc: 0.0166	n_coverage: 0.1916	tfidf: 1.3010
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_talk_type,Walking), (?x,includes_entity_has_property_type,Stopped)	c_support: 80	c_coverage: 1.0000	x_coverage: 0.0781	wr_acc: 0.0166	n_coverage: 0.1916	tfidf: 1.3010
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_easier_than_type,Pedestrian), (?x,includes_entity_has_property_type,Stopped)	c_support: 80	c_coverage: 1.0000	x_coverage: 0.0781	wr_acc: 0.0140	n_coverage: 0.1883	tfidf: 1.3010
+
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includesType,RoadSign), (?x,includes_entity_is_a_type,Car)	c_support: 288	c_coverage: 0.8571	x_coverage: 0.0655	wr_acc: 0.0521	n_coverage: 0.2528	tfidf: 1.1506
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includes_entity_located_near_type,Car), (?x,includesType,Standing)	c_support: 216	c_coverage: 0.6429	x_coverage: 0.0647	wr_acc: 0.0256	n_coverage: 0.1936	tfidf: 0.8364
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includesType,VehicleMoving), (?x,includesType,RoadSign)	c_support: 296	c_coverage: 0.8810	x_coverage: 0.0580	wr_acc: 0.0549	n_coverage: 0.2530	tfidf: 1.1826
+
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x,includes_entity_inheritsfrom_type,Car)	c_support: 48	c_coverage: 0.7500	x_coverage: 0.2500	wr_acc: 0.0208	n_coverage: 0.2448	tfidf: 0.9758
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x,includes_entity_is_a_type,Bus)	c_support: 48	c_coverage: 0.7500	x_coverage: 0.2500	wr_acc: 0.0246	n_coverage: 0.2720	tfidf: 0.9758
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x,includes_entity_cheaper_than_type,Bus)	c_support: 48	c_coverage: 0.7500	x_coverage: 0.2500	wr_acc: 0.0246	n_coverage: 0.2720	tfidf: 0.9758
+
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x,includes_entity_safer_than_type,Car), (?x,includes_entity_easier_than_type,Pedestrian)	c_support: 132	c_coverage: 0.9706	x_coverage: 0.0487	wr_acc: 0.0100	n_coverage: 0.1772	tfidf: 1.2628
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x,includes_entity_is_a_type,Car), (?x,includes_entity_easier_than_type,Pedestrian)	c_support: 132	c_coverage: 0.9706	x_coverage: 0.0487	wr_acc: 0.0100	n_coverage: 0.1772	tfidf: 1.2628
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x,includes_entity_better_than_type,Car), (?x,includes_entity_easier_than_type,Pedestrian)	c_support: 132	c_coverage: 0.9706	x_coverage: 0.0487	wr_acc: 0.0100	n_coverage: 0.1772	tfidf: 1.2628
+
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x,occursAfterScene,?x1), (?x1,includesType,VehicleWithoutRider)	c_support: 127	c_coverage: 0.6615	x_coverage: 0.0732	wr_acc: 0.0181	n_coverage: 0.1949	tfidf: 0.8606
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x,occursAfterScene,?x1), (?x,includesType,VehicleWithoutRider)	c_support: 127	c_coverage: 0.6615	x_coverage: 0.0732	wr_acc: 0.0181	n_coverage: 0.1949	tfidf: 0.8606
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x1,occursBeforeScene,?x), (?x1,includesType,VehicleWithoutRider)	c_support: 127	c_coverage: 0.6615	x_coverage: 0.0732	wr_acc: 0.0181	n_coverage: 0.1949	tfidf: 0.8606
+

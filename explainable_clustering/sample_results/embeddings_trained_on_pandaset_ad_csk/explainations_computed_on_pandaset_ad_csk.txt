@@ -1,0 +1,24 @@
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_instanceof_type,Motorcycle), (?x,includes_entity_cheaper_than_type,PickupTruck)	c_support: 124	c_coverage: 0.7898	x_coverage: 0.1856	wr_acc: 0.0950	n_coverage: 0.5666	tfidf: 1.2653
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_faster_than_type,Motorcycle), (?x,includes_entity_cheaper_than_type,PickupTruck)	c_support: 124	c_coverage: 0.7898	x_coverage: 0.1856	wr_acc: 0.0950	n_coverage: 0.5666	tfidf: 1.2653
+(?x,auxBelongsTo,auxC0_-1)	<=	(?x,includes_entity_cheaper_than_type,PickupTruck), (?x,includes_entity_accelerate_faster_than_type,Motorcycle)	c_support: 124	c_coverage: 0.7898	x_coverage: 0.1856	wr_acc: 0.0950	n_coverage: 0.5666	tfidf: 1.2653
+
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_are_more_durable_than_type,Car), (?x,includes_entity_has_property_type,Stopped)	c_support: 145	c_coverage: 1.0000	x_coverage: 0.1198	wr_acc: 0.0923	n_coverage: 0.3731	tfidf: 1.3424
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_have_far_less_conductive_material_than_type,Car), (?x,includes_entity_has_property_type,Stopped)	c_support: 145	c_coverage: 1.0000	x_coverage: 0.1198	wr_acc: 0.0923	n_coverage: 0.3731	tfidf: 1.3424
+(?x,auxBelongsTo,auxC1_-1)	<=	(?x,includes_entity_are_far_more_scalable_than_type,Car), (?x,includes_entity_has_property_type,Stopped)	c_support: 145	c_coverage: 1.0000	x_coverage: 0.1198	wr_acc: 0.0923	n_coverage: 0.3731	tfidf: 1.3424
+
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includes_entity_easier_than_type,Bicycle)	c_support: 151	c_coverage: 0.7865	x_coverage: 0.7865	wr_acc: 0.1406	n_coverage: 1.0000	tfidf: 1.4511
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includes_entity__r_Synonym_type,Bicycle), (?x,includes_entity_easier_than_type,Car)	c_support: 151	c_coverage: 0.7865	x_coverage: 0.7865	wr_acc: 0.1406	n_coverage: 1.0000	tfidf: 1.4511
+(?x,auxBelongsTo,auxC2_-1)	<=	(?x,includes_entity_definedas_type,Bicycle), (?x,includes_entity_faster_than_type,Walking)	c_support: 151	c_coverage: 0.7865	x_coverage: 0.7865	wr_acc: 0.1406	n_coverage: 1.0000	tfidf: 1.4511
+
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x1,occursAfterScene,?x), (?x1,includes_entity_easier_than_type,Standing)	c_support: 79	c_coverage: 0.8144	x_coverage: 0.0384	wr_acc: 0.0236	n_coverage: 0.2251	tfidf: 1.0596
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x,includes_entity_easier_than_type,Standing), (?x2,occursAfterScene,?x)	c_support: 78	c_coverage: 0.8041	x_coverage: 0.0333	wr_acc: 0.0229	n_coverage: 0.2249	tfidf: 1.0462
+(?x,auxBelongsTo,auxC3_-1)	<=	(?x,includes_entity_easier_than_type,Standing), (?x2,occursBeforeScene,?x)	c_support: 79	c_coverage: 0.8144	x_coverage: 0.0332	wr_acc: 0.0234	n_coverage: 0.2257	tfidf: 1.0596
+
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x1,occursBeforeScene,?x), (?x,includesType,RollingContainer)	c_support: 126	c_coverage: 0.7875	x_coverage: 0.2719	wr_acc: 0.0516	n_coverage: 0.2558	tfidf: 1.0246
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x,occursAfterScene,?x1), (?x,includesType,RollingContainer)	c_support: 126	c_coverage: 0.7875	x_coverage: 0.2719	wr_acc: 0.0516	n_coverage: 0.2558	tfidf: 1.0246
+(?x,auxBelongsTo,auxC4_-1)	<=	(?x,occursAfterScene,?x1), (?x1,includesType,RollingContainer)	c_support: 126	c_coverage: 0.7875	x_coverage: 0.2667	wr_acc: 0.0513	n_coverage: 0.2554	tfidf: 1.0246
+
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x,includes_entity_csk_part_of_type,Bus), (?x,includes_entity_has_property_type,Stopped)	c_support: 72	c_coverage: 0.9863	x_coverage: 0.3092	wr_acc: 0.0499	n_coverage: 0.3727	tfidf: 1.3788
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x,includes_entity_flexible_than_type,Bus), (?x,includes_entity_has_property_type,Stopped)	c_support: 72	c_coverage: 0.9863	x_coverage: 0.3092	wr_acc: 0.0499	n_coverage: 0.3727	tfidf: 1.3788
+(?x,auxBelongsTo,auxC5_-1)	<=	(?x,includes_entity_bigger_than_type,Bus), (?x,includes_entity_has_property_type,Stopped)	c_support: 72	c_coverage: 0.9863	x_coverage: 0.3092	wr_acc: 0.0499	n_coverage: 0.3727	tfidf: 1.3788
+
