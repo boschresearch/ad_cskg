@@ -82,7 +82,7 @@ Holographic Embeddings of Knowledge Graphs. AAAI 2016: 1955-1961
 ExCut: Explainable Embedding-Based Clustering over Knowledge Graphs. ISWC (1) 2020: 218-237
 
 ## License
-This dataset is licensed under [CC-BY-SA-4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This dataset is licensed under [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC-BY-SA-4.0)][cc-by-nc-sa].
 
 [![CC BY-NC-SA 4.0][cc-by-nc-sa-image]][cc-by-nc-sa]
 
