@@ -31,7 +31,7 @@ The repository stores the following data:
  
 (3) pandaset_ad_csk.ttl - An extension of pandaset.ttl with commonsense relations from ad_csk.csv.
 
-(4) linked_prediction_models - A folder with the link prediction models TransE [2] and HolE [3] pretrained using [Ampligraph 1.4](https://github.com/Accenture/AmpliGraph/) on (2) and (3).
+(4) link_prediction_models - A folder with the link prediction models TransE [2] and HolE [3] pretrained using [Ampligraph 1.4](https://github.com/Accenture/AmpliGraph/) on (2) and (3).
 To load the models run 
 ```
 from ampligraph.utils import  restore_model
