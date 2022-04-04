@@ -56,7 +56,7 @@ model = restore_model('<model_name>.pkl')
 - [Quasi-mododo](https://github.com/Aunsiels/CSK)
 - [CSKG](https://github.com/usc-isi-i2/cskg) 
 
-(3) linked_prediction_models - A folder with the link prediction models TransE [2] and HolE [3] pretrained using [Ampligraph 1.4](https://github.com/Accenture/AmpliGraph/) on (1) and (2).
+(3) [link_prediction_models](link_prediction_models) - A folder with the link prediction models TransE [2] and HolE [3] pretrained using [Ampligraph 1.4](https://github.com/Accenture/AmpliGraph/) on (1) and (2).
 To load the models run 
 ```python
 from ampligraph.utils import  restore_model
