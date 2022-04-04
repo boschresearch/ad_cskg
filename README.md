@@ -20,37 +20,10 @@ Please cite the above paper if using the dataset.
 
 The repository stores the following data:
 
-<!--- (1) ad_csk.csv - A collection of commonsense knowledge assertions relevant for the autonomous driving domain extracted from the following knowledge graphs:
-- [ConceptNet](https://github.com/commonsense/conceptnet)
-- [WebChild](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/webchild/)
-- [Quasi-mododo](https://github.com/Aunsiels/CSK)
-- [CSKG](https://github.com/usc-isi-i2/cskg) 
-
-(2) [pandaset.ttl](pandaset.ttl) - A knowledge graph [1] constructed relying on
+(1) [pandaset.ttl](pandaset.ttl) - A knowledge graph [1] constructed relying on
 - [Pandaset](https://scale.com/open-datasets/pandaset)
  
-(3) [pandaset_ad_csk.ttl](pandaset_ad_csk.ttl) - An extension of pandaset.ttl with commonsense relations from ad_csk.csv.
-
-(4) [link_prediction_models](link_prediction_models) - A folder with the link prediction models TransE [2] and HolE [3] pretrained using [Ampligraph 1.4](https://github.com/Accenture/AmpliGraph/) on (2) and (3).
-To load the models run 
-
-
-```
-from ampligraph.utils import  restore_model
-
-model = restore_model('<model_name>.pkl')
-```
-
-(5) explainable_clustering - A folder with the explainable clustering results, i.e., the output of the method from [4] on the following input:
-- pandaset_no_literals.tsv: The KG (2) without literals in the tsv format
-- pandaset_ad_csk_no_literals.tsv: The KG (3) without literals in the tsv format
-- target_scene_entities.txt:  Scenes to be clustered
--->
-
-(1) pandaset.ttl - A knowledge graph [1] constructed relying on
-- [Pandaset](https://scale.com/open-datasets/pandaset)
- 
-(2) pandaset_ad_csk.ttl - An extension of pandaset.ttl with commonsense relations from:
+(2) [pandaset_ad_csk.ttl](pandaset_ad_csk.ttl) - An extension of pandaset.ttl with commonsense relations from:
 - [ConceptNet](https://github.com/commonsense/conceptnet)
 - [WebChild](https://www.mpi-inf.mpg.de/departments/databases-and-information-systems/research/yago-naga/commonsense/webchild/)
 - [Quasi-mododo](https://github.com/Aunsiels/CSK)
