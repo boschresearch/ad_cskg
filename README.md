@@ -10,7 +10,8 @@
 
 This repository contains the dataset relevant for the following publication.
 
-> Sreyasi Nag Chowdhury, Ruwan Wickramarachchi, Mohamed H. Gad-Elrab, Daria Stepanova, and Cory Henson. **Towards Leveraging Commonsense Knowledge for Autonomous Driving.** ISWC 2021 - Demos & Posters track.
+> Sreyasi Nag Chowdhury, Ruwan Wickramarachchi, Mohamed H. Gad-Elrab, Daria Stepanova, and Cory Henson.
+> **Towards Leveraging Commonsense Knowledge for Autonomous Driving.** ISWC 2021 - Demos & Posters track. [[Text](http://ceur-ws.org/Vol-2980/paper396.pdf)]
 
 More specifically, the dataset stores a collection of commonsense knowledge assertions relevant for the autonomous driving (AD) domain, which can be used either independently or in combination with pandaset (an open-source dataset for urban AD situations). 
 
